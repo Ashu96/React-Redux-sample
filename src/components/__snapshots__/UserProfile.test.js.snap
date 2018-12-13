@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserProfile /> Should match snapshot 1`] = `
+<div
+  className="container"
+>
+  <h1>
+    Loading...
+  </h1>
+  <input
+    className="input"
+    data-id="firstName"
+    key="firstName"
+    name="firstName"
+    placeholder="firstname"
+    type="text"
+    value=""
+  />
+  <input
+    className="input"
+    data-id="lastName"
+    key="lastName"
+    name="lastName"
+    placeholder="lastname"
+    type="text"
+    value=""
+  />
+  <input
+    className="input"
+    data-id="company"
+    key="company"
+    name="company"
+    placeholder="company"
+    type="text"
+    value=""
+  />
+  <input
+    className="input"
+    data-id="department"
+    key="department"
+    name="department"
+    placeholder="department"
+    type="text"
+    value=""
+  />
+  <input
+    className="input"
+    data-id="position"
+    key="position"
+    name="position"
+    placeholder="position"
+    type="text"
+    value=""
+  />
+  <input
+    className="input"
+    data-id="email"
+    key="email"
+    name="email"
+    placeholder="email"
+    type="text"
+    value=""
+  />
+  <button
+    className="btn"
+    onClick={[MockFunction]}
+    type="button"
+  >
+    Save
+  </button>
+</div>
+`;

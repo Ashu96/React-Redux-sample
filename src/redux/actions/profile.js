@@ -36,11 +36,11 @@ function isFetching(loading) {
  */
 export function fetchProfile() {
   return (dispatch) => {
-    dispatch(isFetching(true));
     try {
       // eslint-disable-next-line no-undef
       const userId = window.localStorage.getItem('@lastUser');
       if (userId) {
+        dispatch(isFetching(true));
         userRef.child(`/${userId}`).once('value', (snapShot) => {
           const payload = snapShot.val();
           // dispatch save user
